@@ -7,14 +7,17 @@ body {
   background-color: #1f2937;
 }
 
-.hero-title {
+h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
-.hero-body {
+p {
   font-size: 18px;
+}
+
+.hero-body {
   color: #e5e7eb;
 }
 
@@ -23,7 +26,7 @@ body {
   color: #f9faf8;
 }
 
-.button {
+.sign-up {
   color: #3882f6;
 }
 
