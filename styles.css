@@ -71,7 +71,7 @@ ul {
 }
 
 .hero-img {
-  width: 150px;
+  max-width: 150px;
 }
 
 /* Info Section */
