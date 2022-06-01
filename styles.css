@@ -59,6 +59,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 3rem 14rem 3rem;
+  gap: 2rem;
 }
 
 .hero-body {
@@ -66,7 +67,7 @@ ul {
 }
 
 .hero-content img {
-  width: 200px;
+  max-width: 150px;
 }
 
 /* Info Section */
