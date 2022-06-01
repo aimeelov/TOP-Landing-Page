@@ -70,6 +70,10 @@ ul {
   max-width: 150px;
 }
 
+.hero-img {
+  width: 150px;
+}
+
 /* Info Section */
 
 .info {
