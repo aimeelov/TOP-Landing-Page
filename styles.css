@@ -91,6 +91,12 @@ a {
   width: 200px;
 }
 
+.card-image {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+}
+
 /* Quote Section */
 
 .quote {
