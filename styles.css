@@ -78,6 +78,7 @@ ul {
 
 .info {
   margin: 32px;
+  text-align: center;
 }
 
 .info-title {
@@ -88,6 +89,7 @@ ul {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .info-container {
@@ -124,7 +126,7 @@ ul {
   text-align: left;
 }
 
-p .quote-signature {
+.quote-signature {
   font-size: 18px;
   font-weight: 700;
   width: 50%;
