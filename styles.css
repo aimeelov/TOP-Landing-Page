@@ -57,13 +57,14 @@ ul {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 3rem 14rem 3rem;
   gap: 2rem;
 }
 
 .hero-body {
   color: #e5e7eb;
+  max-width: 500px;
 }
 
 .hero-content img {
