@@ -109,12 +109,11 @@ ul {
 }
 
 .card {
-  max-width: 150px;
+  max-width: 180px;
 }
 
 .card-img {
-  width: 144px;
-  height: 144px;
+  width: 180px;
 }
 
 /* Quote Section */
