@@ -46,12 +46,19 @@ a {
   color: #f9faf8;
 }
 
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  list-style: none;
+}
+
 /* Hero Section */
 
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 32px;
+  padding: 3rem 14rem 3rem;
 }
 
 .hero-body {
@@ -79,22 +86,20 @@ a {
 }
 
 .info-container {
+  margin: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  max-width: 60%;
-  gap: 64px;
-  margin: auto;
+  gap: 32px;
+  flex-flow: row wrap;
 }
 
 .card {
-  width: 200px;
+  max-width: 150px;
 }
 
-.card-image {
-  width: 100px;
-  height: 100px;
-  border: 1px solid;
+.card-img {
+  width: 144px;
+  height: 144px;
 }
 
 /* Quote Section */
@@ -114,7 +119,7 @@ a {
   text-align: left;
 }
 
-.quote-signature {
+p .quote-signature {
   font-size: 18px;
   font-weight: 700;
   width: 50%;
@@ -125,13 +130,8 @@ a {
 /* CTA section */
 .cta {
   background: #3882f6;
-  padding: 32px;
-}
-
-.cta-text {
-  background: blue;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 32px;
   padding: 36px;
@@ -139,4 +139,7 @@ a {
   margin: 100px 200px;
   color: #f9faf8;
   flex-flow: row wrap;
+}
+
+.cta-text {
 }
